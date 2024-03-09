@@ -1,0 +1,363 @@
+{
+  "cookies": [
+    {
+      "name": "csrf_cookie",
+      "value": "02be531faa5cbf0c8fdcb2453ffef8b6",
+      "domain": ".proposify.com",
+      "path": "/",
+      "expires": 1710004756.387854,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ci_session",
+      "value": "rrtjlbkt4a3cqusfd9cab9kfu4le6ttr",
+      "domain": ".proposify.com",
+      "path": "/",
+      "expires": 1710011956.38803,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "rl_anonymous_id",
+      "value": "RudderEncrypt%3AU2FsdGVkX197QdEzBSrjV%2BtRmVxhtkTlzMJ%2F%2BsVJmez3vAhdM%2BMIodoyWdTG98%2B%2B%2FjSFl3l%2FddxTeQyl%2FAFdmg%3D%3D",
+      "domain": ".proposify.com",
+      "path": "/",
+      "expires": 1741533554,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "rl_page_init_referrer",
+      "value": "RudderEncrypt%3AU2FsdGVkX1%2BWqJVhowKk6JpmyFt4GlbeAzG539ydnvQ%3D",
+      "domain": ".proposify.com",
+      "path": "/",
+      "expires": 1741533554,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "rl_page_init_referring_domain",
+      "value": "RudderEncrypt%3AU2FsdGVkX1%2F2q6TcpfgTnLCDUbIDaad%2FNTghK2KBRd0%3D",
+      "domain": ".proposify.com",
+      "path": "/",
+      "expires": 1741533554,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_vwo_uuid_v2",
+      "value": "DE309F3FE151A28D7A6B72BFF1108CE95|7314e2c96d307b4af5f1e5d6a28700fc",
+      "domain": ".gmail-270222.proposify.com",
+      "path": "/",
+      "expires": 1741619954,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cfruid",
+      "value": "aad9531c4c6c4dbe8430613e8253ccbf3f2382b3-1709997554",
+      "domain": ".proposify.zendesk.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1709997554826.1026977769",
+      "domain": ".proposify.com",
+      "path": "/",
+      "expires": 1717773555,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "li_sugr",
+      "value": "25aa8d33-55d9-46a5-9f93-fb39f0212918",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1717773555.035035,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bcookie",
+      "value": "\"v=2&7369edf2-bfd0-4f3c-8457-ad063d83f12b\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1741533556.03513,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lidc",
+      "value": "\"b=VGST00:s=V:r=V:a=V:p=V:g=3267:u=1:x=1:i=1709997554:t=1710083954:v=2:sig=AQERIQMef3aYRkQDFMSCi33qeIfWlHBg\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1710083954.827411,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "UserMatchHistory",
+      "value": "AQKaMxavh3z19AAAAY4jy_zbrusoqvb7FuFWMNjGrwTIBnYhNaEikWUAjE8rpyApd3otfwcmCcPnYA",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1712589554.889446,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AnalyticsSyncHistory",
+      "value": "AQIIqV9T6ZUI7QAAAY4jy_zb1--avFwQLsxZd_vAyAAw7KzhFT7Q_VNNC_hUircgpn0MTRzLN8DSvDQ16o9FAg",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1712589554.889472,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bscookie",
+      "value": "\"v=1&2024030915191418796ade-8d9a-4613-897a-241546e7ec5cAQG9HLXg93R3X4eZ22mHF9xAq4N-x7OW\"",
+      "domain": ".www.linkedin.com",
+      "path": "/",
+      "expires": 1741533554.96728,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "frontend_token",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImU0ZmRiZDI4OTZjNzg3ZGIwZjViYjk4MTU5MGIxYjc1MWJiODQ3OTA4ZWY3MjYyYzQzNjkxMWQ2MDkzZjgyYzU2NTJjNmQxODVmMjQwNWNmIn0.eyJhdWQiOiI4YzNhM2E0MTk2MGIyOGI0YjlkZDgzNGIzYzIwMWU4YmQ5YjgyOTFmNjE4NGJmMjEiLCJqdGkiOiJlNGZkYmQyODk2Yzc4N2RiMGY1YmI5ODE1OTBiMWI3NTFiYjg0NzkwOGVmNzI2MmM0MzY5MTFkNjA5M2Y4MmM1NjUyYzZkMTg1ZjI0MDVjZiIsImlhdCI6MTcwOTk5NzU1NSwibmJmIjoxNzA5OTk3NTU1LCJleHAiOjE3MTAwMDExNTUsInN1YiI6IjkwNjE5Iiwic2NvcGVzIjpbImFsbCJdfQ.a9yGWwFsMjVUS7oCBnoE7bjEDT5gIfE2hDPs8ZZSQXf7xHJX-cL9XicwZLO9uJ4ItQssry0n0GxaZYNg7BZGbeJbSTTTRI6ZWEzq5wqHUUNxb-t8jlT_p89CW6R6IosUpwJ7a0BcyOAt65x3aNeXtm87MIHTj8gScO_IwnBY0UQ",
+      "domain": ".proposify.com",
+      "path": "/",
+      "expires": 1710011955.300918,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "frontend_refresh_token",
+      "value": "FOCSVbZYh3dyQoXZnvSFnh%2BC6ivR9dFYAzzw6tkRjVZKecVb0F%2B6kDlppkfC5kWMGgKu%2B1Grq2NANyMZwqBvvF3KBv%2B8BprAulplpnPaDAay023Wtoikw7dYnTDdK99%2B%2BtMOW4iDh2OKEoxUvJjtRRXHlUiYMaxdzRy3hy%2FxP3pNbOfXcwrTtVnbSTmgaPcPiyjstYZhVT%2BjFQuVShd15E2%2BH1UElpLZhNN0cCZa6kIZkGkxktrzUS0YYBKTaKiVVFebpQMAFnw8ogabsksmDjdGrnrlQtBunZLaqU55jiAwW9h8wGVbjrwisEsuTUCg1yMM0WXiEBJpunjZrZbT9j2gch9IIwm6KwFI4f3LcNxSasalqaXldXY75xbCPyOgJ1mr4WXFNOYbEmnLe64CVxzR9vzcvN5RrVX4cdRjU%2BD%2FcUehg7YApgT9FdjDwaFTR5HkItcIjtk1QMCe%2BTLLpOgOUGVslfqYrjwGJRwcnxukX1CdeGH7hNLl%2FXpcLr%2Fk",
+      "domain": ".proposify.com",
+      "path": "/",
+      "expires": 1710602355.30093,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "rl_user_id",
+      "value": "RudderEncrypt%3AU2FsdGVkX1964z4%2BDG9T0AxWb16DvFpFpIaNGYg%2BFJg%3D",
+      "domain": ".proposify.com",
+      "path": "/",
+      "expires": 1741533555,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "rl_trait",
+      "value": "RudderEncrypt%3AU2FsdGVkX1%2Ba1k8pXwWKCPkhFzNv5YgV0%2Bhw2Mr%2BYHLMJsaL6uVB1ey6ysO4kyoPkZZ1OvZSVLilw9BeYlhzFlBfRi0hRG5C10KDbCoKstpavGAoGwqb442WaxjVn1QowiAvqQCkqiW2x%2BECz6GNdGf4d8JFPr3nSy1o%2Fof65qTE5OVW%2BTSnd4tl51KtcQuvus0o9BqtfLYP8Kf0LgZEU7ejxYXqoD0KKVEdTUK9pIxV%2Bw15GIX40JRQipo%2FYF%2BGe8AHVZ1T%2FNzQTNgyJMcgXljtro9AAgXR%2FROBSynmnnDgVTanTwislwR8rKvj3zeEFjZCZ%2BgKybVW4D28E2e0escYCBGPMf5fpWIzsLjT25SK%2Buwj%2BY1uX3xB57vnff2zqSyFQwg%2Fz8o3tFAvvy9UX%2BzioYh09cHBcFqXUGfozcHthXmqaUB8OHLEydxm4tG2YoDF423X57t%2BxOmYw1ZP8M2vzJ9r1C6bsLUktETpUKQS2kE0YRvxqkv%2F%2BhdbDKope5aCYyP02t1PKvR3m8jGaA5i566G0%2FWsA9YGAA11QNLsKvIpeycEXkABV%2B5oYh8LuaTG7DMKd1O4FcUewzatsAuRi4MtycJhF6vegIRxgncK4jHfSyo2pxil31gnjIxerusThP3ZNeUUbK%2Fiyeqr%2B8tn5gX6m4R2JpQjGAJyyq41OMrX2y4kKmtSRXce1zAi%2BLvcIvTTBugwaqzYO7GfoLyrzF0Ba1nLpZ0lw2ituZoDYgxynHivT5JEne%2FwqNATI04EeamYsHTxbamEyW%2BCITJRC%2F3pUZ4T9uOAhu0gKpoAFlHlro8cCJ%2FdcPCFKkSn0IDt921kmFVtPfBnWAJXNztTnmNz4bLfeuFQKB9zFubaxVxGz1cV5mUj%2FxZxIToi%2Fdaovwz4%2BNKxN2YWEnofMneqMKlxuwaS6vGhiT86V%2FhRsZB5xrou4irNuSIuLAe4b%2BVws2ir5i5ufaGPpsOmmiqjDpVtU4qEUXUPcyCjAVHz%2BsiPiCI3B0TTAbu2xeRdxbTJAhgXBLYKBuNICJPIw952%2F1WID7b8iKF%2FhJ4ksW4FuxENKGG6Sp7WEHY794X9ZJ426HKsUuSU95YnFQib%2BWI46McMmilJyVzLomSuDnyMim1uXslIoyZTeY8K5%2Fl%2F3%2Bry6oEuTPmdZwplCEcfXXbb37bp10pHzz24g8LjsYGhUj5G5HF8a921Pj%2Bz2MkwyBmiKlVXW8uv6Rp8yYq3HHiQ9Cfq%2FO0BXcOD5TjFoAsLnOfu03CoKS%2FhdYcn7jnOeViBFmiwd3xQQTuMkSTwiwl0kadencgBegTPy8nOpSLoFSYGwXrgDfia9trsQTzlGP90GnxdKB%2BD1YcPh3ls5v2BA0CgMZf0H6QmaJPWaAs%3D",
+      "domain": ".proposify.com",
+      "path": "/",
+      "expires": 1741533555,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "rl_group_id",
+      "value": "RudderEncrypt%3AU2FsdGVkX195G5%2B6SSmXQ5TVuTfNVHccE95dwy%2BLAqE%3D",
+      "domain": ".proposify.com",
+      "path": "/",
+      "expires": 1741533555,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "rl_group_trait",
+      "value": "RudderEncrypt%3AU2FsdGVkX18dwO4%2BrK9T%2BlT5XiGgIW9ELugBZCxYu2JW8ti5YKZaYsQbWJ556VfIClJUxokVLmvg0TRrtKN6fK89s8mjKNz0us4M4dkRndAiYGcRI3COJUczSplY4gDce3K6%2FMIeoPN6TR1p1BVkmY4dgC%2BwFUeBnx4SpRGP%2Bphp1w67zJ4S7S7sM8kk1%2FaHnanxvvpXH4F4BKHZaHNv7LbYGfC8ou%2B6Yy%2BUJXkm88o265lGTA8rk9Kokt42ieOsYR2r1i79HkDOb33TyjFpluJZmqfF2oil9mqFRwp1UjvHzF0oJEf7WCTZT4jsRxXQcWf%2BrTctmwPJN8vp6lZOXL%2Bw3EEVm6QRkKl8j1XGVVj2uuEkswqO0NSO%2Ff3UMviI4f2fx9QJLc%2BBPawQkIJAqRDJxNDAPxijbBofT515iKXGqznxJBxopkbDcm%2BfY4TLhM2pxVob%2BBPJ1wSCVCS3B8SeuwDhEI6digaLYNbok3uLwIfNi78pYU0ncNOy8AY%2FIVTGnY8m79CTZ21tw2tCdlxQqAzMzTaNwXF9ixPQzDMa8zXMoM7aHDa1KoTg5mdSGAjHCGJyo%2B2hXD2eds1bFOuhLszW7KOYm%2FrwKNlwood%2B8kRDYV13QHyY9ay2znYQJlusdAiu4dXIKlgUxnT3tre9qihzL%2Bed9%2B%2FReQEGzepULiINnPRpugmCiPrjL9rEGcu9f14Fg4mm%2BLc4aTensA%3D%3D",
+      "domain": ".proposify.com",
+      "path": "/",
+      "expires": 1741533555,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "rl_session",
+      "value": "RudderEncrypt%3AU2FsdGVkX1%2BxdI8XTFRM%2FhUkDCVq0XHVUGgrNlFdjPanHOruxwKLZRmPXXoqxw0ZyKBx8Rwfk3o8ruFZuAv4BMTisuwlS6hQerR1ajRHSnJobouBxw0p5bdkHjbDGurTUBidz3OjygipYbjaW6TYfw%3D%3D",
+      "domain": ".proposify.com",
+      "path": "/",
+      "expires": 1741533555,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.701591525.1709997556",
+      "domain": ".proposify.com",
+      "path": "/",
+      "expires": 1710083956,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_dc_gtm_UA-47349100-1",
+      "value": "1",
+      "domain": ".proposify.com",
+      "path": "/",
+      "expires": 1709997616,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.687632605.1709997556",
+      "domain": ".proposify.com",
+      "path": "/",
+      "expires": 1744557556.074426,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_dd_s",
+      "value": "logs=1&id=dddfe21c-fd59-438a-be55-8dfe583eb26c&created=1709997554108&expire=1709998455138&rum=1",
+      "domain": "gmail-270222.proposify.com",
+      "path": "/",
+      "expires": 1709998456,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "_ga_Y2LDL0ZF40",
+      "value": "GS1.1.1709997556.1.0.1709997556.60.0.0",
+      "domain": ".proposify.com",
+      "path": "/",
+      "expires": 1744557556.282865,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://gmail-270222.proposify.com",
+      "localStorage": [
+        {
+          "name": "dashboard/views/search|false",
+          "value": "{\"url\":\"dashboard/search\",\"path\":\"dashboard/views/search\",\"hash\":false,\"html\":null,\"_timestamp\":1709997556427}"
+        },
+        {
+          "name": "fingerprint",
+          "value": "{\"_value\":\"pyUser-510.59999999403954\",\"_timestamp\":1709997554157}"
+        },
+        {
+          "name": "rudder.d7c15704-292b-4d89-b7de-6655c1648337.reclaimEnd",
+          "value": "null"
+        },
+        {
+          "name": "rudder.d7c15704-292b-4d89-b7de-6655c1648337.reclaimStart",
+          "value": "null"
+        },
+        {
+          "name": "_pendo_accountId.f30c0024-a86f-4fb0-5411-ecaa4f46675c",
+          "value": "{\"ttl\":1718637556257,\"value\":\"452560\"}"
+        },
+        {
+          "name": "login/views/index|false",
+          "value": "{\"url\":\"/login\",\"path\":\"login/views/index\",\"hash\":false,\"html\":null,\"_timestamp\":1709997554235}"
+        },
+        {
+          "name": "_pendo_visitorId.f30c0024-a86f-4fb0-5411-ecaa4f46675c",
+          "value": "{\"ttl\":1718637556257,\"value\":\"580287\"}"
+        },
+        {
+          "name": "ZD-buid",
+          "value": "09fe46cfe5a348eba48ebc66bcab2f6f"
+        },
+        {
+          "name": "li_adsId",
+          "value": "4e039f00-57ea-4b59-b62d-7768cb4928db"
+        },
+        {
+          "name": "rudder.d7c15704-292b-4d89-b7de-6655c1648337.queue",
+          "value": "[]"
+        },
+        {
+          "name": "622a31de53b7f300f3e031b6.clientId",
+          "value": "09fe46cfe5a348eba48ebc66bcab2f6f"
+        },
+        {
+          "name": "rudder.d7c15704-292b-4d89-b7de-6655c1648337.inProgress",
+          "value": "{}"
+        },
+        {
+          "name": "_pendo_oldVisitorId.f30c0024-a86f-4fb0-5411-ecaa4f46675c",
+          "value": "{\"ttl\":1718637556256,\"value\":\"_PENDO_T_64ec1b68-3832-4be7-9c02-58d591acd332\"}"
+        },
+        {
+          "name": "_pendo_meta.f30c0024-a86f-4fb0-5411-ecaa4f46675c",
+          "value": "{\"ttl\":1718637556257,\"value\":4242313346}"
+        },
+        {
+          "name": "lastExternalReferrer",
+          "value": "empty"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1709997554824"
+        },
+        {
+          "name": "_pendo_lastStepAdvanced.f30c0024-a86f-4fb0-5411-ecaa4f46675c",
+          "value": "{\"ttl\":1709997566660,\"value\":\"[{\\\"tabId\\\":\\\"SDQsGWJuyAMh9kR7\\\",\\\"guideId\\\":\\\"j8yb9Gr2oZpzZuoOCV-tMLktybw\\\",\\\"guideStepId\\\":\\\"CmoyRlAiOSNM920roOAC5DZuy5A\\\",\\\"time\\\":1709997556660,\\\"state\\\":\\\"active\\\",\\\"seenReason\\\":\\\"auto\\\",\\\"visitorId\\\":\\\"580287\\\"}]\"}"
+        },
+        {
+          "name": "ZD-suid",
+          "value": "{\"id\":\"67fcd9654a0e43d18e730a0f34219bd8\",\"expiry\":1709998454470,\"tabs\":{\"count\":1,\"expiry\":0}}"
+        },
+        {
+          "name": "_pendo_guides_blocked.f30c0024-a86f-4fb0-5411-ecaa4f46675c",
+          "value": "{\"ttl\":1710011954800,\"value\":\"0\"}"
+        },
+        {
+          "name": "dashboard/views/index|false",
+          "value": "{\"url\":\"/dashboard\",\"path\":\"dashboard/views/index\",\"hash\":false,\"html\":null,\"_timestamp\":1709997555899}"
+        },
+        {
+          "name": "rudder.d7c15704-292b-4d89-b7de-6655c1648337.ack",
+          "value": "1709997557239"
+        },
+        {
+          "name": "_pendo_previous_page_loads.f30c0024-a86f-4fb0-5411-ecaa4f46675c",
+          "value": "{\"ttl\":1709997562901,\"value\":\"[{\\\"url\\\":\\\"https://gmail-270222.proposify.com/login\\\",\\\"browser_time\\\":1709997554671},{\\\"url\\\":\\\"https://gmail-270222.proposify.com/dashboard\\\",\\\"browser_time\\\":1709997555901}]\"}"
+        },
+        {
+          "name": "idle",
+          "value": "{\"_value\":0,\"_timestamp\":1709997554157}"
+        }
+      ]
+    }
+  ]
+}
