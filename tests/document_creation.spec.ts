@@ -6,19 +6,13 @@ import {
   loginPage,
 } from "../xpath_selectors";
 import { faker } from "@faker-js/faker";
+import { loginUser } from "../commons";
 
 test.beforeEach(async ({ page }) => {
-  test("I navigate to dashboard", async ({ page }) => {
-    await page.goto("https://gmail-270222.proposify.com");
-    await page.locator(loginPage.emailField).fill("olaoyechristy97@gmail.com");
-    await page.locator(loginPage.passwordField).fill("Ememobong@95");
-    await page.click(loginPage.loginButton);
+  loginUser(page)
+});
 
-    await expect(page.locator(loginPage.dashboardPage)).toBeVisible({
-      timeout: 7000,
-    });
-  });
-
+test.describe("Upload Images to Document Library", () => {
   test("I am on the New Beta Editor page", async ({ page }) => {
     await page.click(dashboardPage.newBetaEditorLink);
   });
@@ -27,9 +21,7 @@ test.beforeEach(async ({ page }) => {
     await page.click(betaEditorPage.newDocumentBtn);
     await page.fill(documentsPage.documentTitle, faker.word.noun());
   });
-});
 
-test.describe("Upload Images to Document Library", () => {
   test("I click on the content tab", async ({ page }) => {
     await page.click(documentsPage.contentNodeTab);
     });
@@ -53,6 +45,15 @@ test.describe("Upload Images to Document Library", () => {
 });
 
 test.describe("Add a signature block to a new document", () => {
+  test("I am on the New Beta Editor page", async ({ page }) => {
+    await page.click(dashboardPage.newBetaEditorLink);
+  });
+
+  test("I click on New Document", async ({ page }) => {
+    await page.click(betaEditorPage.newDocumentBtn);
+    await page.fill(documentsPage.documentTitle, faker.word.noun());
+  });
+  
   test("I click on the Signatures tab", async ({ page }) => {
     await expect(page.locator(documentsPage.signatureNodeTab)).toBeVisible();
   await page.click(documentsPage.signatureNodeTab);

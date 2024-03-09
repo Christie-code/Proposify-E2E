@@ -3,23 +3,15 @@ import {
   betaEditorPage,
   dashboardPage,
   documentsPage,
-  loginPage,
 } from "../xpath_selectors";
-import { getBaseUrl } from "../commons";
+import { getBaseUrl, loginUser } from "../commons";
 import { faker } from "@faker-js/faker";
 
 test.beforeEach(async ({ page }) => {
-  test("I navigate to dashboard", async ({ page }) => {
-    await page.goto("https://gmail-270222.proposify.com");
-    await page.locator(loginPage.emailField).fill("olaoyechristy97@gmail.com");
-    await page.locator(loginPage.passwordField).fill("Ememobong@95");
-    await page.click(loginPage.loginButton);
+  loginUser(page);
+});
 
-    await expect(page.locator(loginPage.dashboardPage)).toBeVisible({
-      timeout: 7000,
-    });
-  });
-
+test.describe("Verify Documents Draft Filter and Trash", () => {
   test("I am on the New Beta Editor page", async ({ page }) => {
     await page.click(dashboardPage.newBetaEditorLink);
   });
@@ -34,9 +26,7 @@ test.beforeEach(async ({ page }) => {
     await page.goto(`${baseUrl}/pipeline`);
     await expect(page.locator(betaEditorPage.newDocumentBtn)).toBeVisible();
   });
-});
 
-test.describe("Verify Documents Draft Filter and Trash", () => {
   test("I should see a filter bar", async ({ page }) => {
     await expect(page.locator(betaEditorPage.filterBar)).toBeVisible();
   });
