@@ -2,9 +2,6 @@
 import { Page, expect } from "@playwright/test";
 import { loginPage } from "./xpath_selectors";
 
-export const authFile = "./.auth/user.json";
-export const noAuthFile = "./.auth/noauth.json";
-
 export function getBaseUrl(page: Page) {
   const currentUrl = page.url();
   const urlObject = new URL(currentUrl);
@@ -20,6 +17,4 @@ export async function loginUser(page: Page) {
   await expect(page.locator(loginPage.dashboardPage)).toBeVisible({
     timeout: 3000,
   });
-  // Save the login state
-  // await page.context().storageState({ path: authFile });
 }
