@@ -15,7 +15,5 @@ test.describe('Verify Login', () => {
     await expect(page.locator(loginPage.dashboardPage)).toBeVisible({
       timeout: 7000,
     });
-    // Save the login state
-    // await page.context().storageState({ path: authFile });
   });
 })
