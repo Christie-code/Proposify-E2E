@@ -1,4 +1,3 @@
-// import { config } from "../support/config";
 import { Page, expect } from "@playwright/test";
 import { loginPage } from "./xpath_selectors";
 
