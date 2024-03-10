@@ -9,7 +9,7 @@ import { faker } from "@faker-js/faker";
 import { loginUser } from "../commons";
 
 test.beforeEach(async ({ page }) => {
-  loginUser(page)
+  await loginUser(page)
 });
 
 test.describe("Upload Images to Document Library", () => {
@@ -53,7 +53,7 @@ test.describe("Add a signature block to a new document", () => {
     await page.click(betaEditorPage.newDocumentBtn);
     await page.fill(documentsPage.documentTitle, faker.word.noun());
   });
-  
+
   test("I click on the Signatures tab", async ({ page }) => {
     await expect(page.locator(documentsPage.signatureNodeTab)).toBeVisible();
   await page.click(documentsPage.signatureNodeTab);

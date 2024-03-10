@@ -8,7 +8,7 @@ import { getBaseUrl, loginUser } from "../commons";
 import { faker } from "@faker-js/faker";
 
 test.beforeEach(async ({ page }) => {
-  loginUser(page);
+  await loginUser(page);
 });
 
 test.describe("Verify Documents Draft Filter and Trash", () => {
