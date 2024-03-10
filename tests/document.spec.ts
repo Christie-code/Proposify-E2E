@@ -54,6 +54,36 @@ test.describe("Document Creation", () => {
     await expect(
       page.locator(documentsPage.rightPaneSignatureBlock)
     ).toBeVisible();
+
+    // I drag the signature block to the right edge of the document
+    // Ensure the signature block is visible and get its bounding box
+    const signatureBlock = page.locator(documentsPage.rightPaneSignatureBlock);
+    const blockBox = await signatureBlock.boundingBox();
+    // Ensure the container where you're going to drop the signature is visible
+    const dropContainer = page.locator(documentsPage.filesDragAndDropContainer);
+    await expect(dropContainer).toBeVisible();
+    const dropContainerBox = await dropContainer.boundingBox();
+    if (dropContainerBox) {
+      const dropX =
+        dropContainerBox.x +
+        dropContainerBox.width -
+        dropContainerBox.width / 4; // Right edge
+      const dropY = dropContainerBox.y + dropContainerBox.height / 2 + 50; // Vertically centered
+      // Scroll to bottom
+      await page.mouse.wheel(dropX, dropY);
+      await page.waitForTimeout(500);
+      // Perform the drag and drop action
+      await signatureBlock.hover();
+      await page.mouse.down();
+      await page.mouse.move(dropX, dropY);
+      await page.mouse.up();
+      // Verify signature block exists in the editor
+      expect(
+        await page
+          .locator(documentsPage.editorPage)
+          .locator(documentsPage.signatureBlock)
+      );
+    }
   });
 });
 
