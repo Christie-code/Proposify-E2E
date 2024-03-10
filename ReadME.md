@@ -43,12 +43,18 @@ To run a specific test suite, append the suite name:
 npx playwright test --grep "<suite-name>"
 ```
 
+
+Execute the following command to see the report:
+
+```
+npx playwright show-report
+```
+
 ## Test Files Structure
 The tests are organized in the following structure:
 
 - `tests/`
-    - `document_creation.spec.ts`: Contains tests for the Document feature.
-    - `document_management.spec.ts`: Contains tests for handing document management feature.
+    - `document.spec.ts`: Contains tests for the Document feature and for handing document management feature.
 
 Each test file imports page object models from the xpath_selectors directory and utility functions from commons.js.
 
