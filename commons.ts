@@ -18,7 +18,7 @@ export async function loginUser(page: Page) {
   await page.click(loginPage.loginButton);
 
   await expect(page.locator(loginPage.dashboardPage)).toBeVisible({
-    timeout: 7000,
+    timeout: 3000,
   });
   // Save the login state
   // await page.context().storageState({ path: authFile });
