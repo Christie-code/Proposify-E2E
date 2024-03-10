@@ -4,7 +4,7 @@ import {
   dashboardPage,
   documentsPage,
 } from "../xpath_selectors";
-import { getBaseUrl, loginUser } from "../commons";
+import { loginUser } from "../commons";
 import { faker } from "@faker-js/faker";
 
 test.beforeEach(async ({ page }) => {
