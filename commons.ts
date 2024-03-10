@@ -12,7 +12,7 @@ export function getBaseUrl(page: Page) {
 }
 
 export async function loginUser(page: Page) {
-  await page.goto('https://gmail-270222.proposify.com', {timeout:0});
+  await page.goto('/', {timeout:0});
   await page.locator(loginPage.emailField).fill("olaoyechristy97@gmail.com");
   await page.locator(loginPage.passwordField).fill("Ememobong@95");
   await page.click(loginPage.loginButton);

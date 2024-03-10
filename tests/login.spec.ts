@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { loginPage } from '../xpath_selectors';
 
 test.beforeEach(async ({ page }) => {
-  await page.goto('https://gmail-270222.proposify.com');
+  await page.goto('/');
 });
 
 test.describe('Verify Login', () => {
