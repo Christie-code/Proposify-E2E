@@ -67,14 +67,16 @@ test.describe("Document Creation", () => {
       const dropX =
         dropContainerBox.x +
         dropContainerBox.width -
-        dropContainerBox.width / 4; // Right edge
-      const dropY = dropContainerBox.y + dropContainerBox.height / 2 + 50; // Vertically centered
+        (dropContainerBox.width / 4); // Right edge
+      const dropY = dropContainerBox.y + (dropContainerBox.height / 3) + 50; // Vertically centered
       // Scroll to bottom
       await page.mouse.wheel(dropX, dropY);
       await page.waitForTimeout(500);
       // Perform the drag and drop action
+      // await signatureBlock.dragTo(dropContainer);
       await signatureBlock.hover();
       await page.mouse.down();
+      // await dropContainer.hover();
       await page.mouse.move(dropX, dropY);
       await page.mouse.up();
       // Verify signature block exists in the editor
@@ -83,6 +85,8 @@ test.describe("Document Creation", () => {
           .locator(documentsPage.editorPage)
           .locator(documentsPage.signatureBlock)
       );
+
+      await page.waitForTimeout(1000);
     }
   });
 });
@@ -116,5 +120,7 @@ test.describe("Document Management", () => {
 
     // I empty the trash
     await page.click(betaEditorPage.emptyTrashNowAction);
+    await page.click(betaEditorPage.comfirmTrashEmpty);
+    await page.waitForTimeout(1000);
   });
 });

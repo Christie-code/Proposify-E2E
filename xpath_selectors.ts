@@ -12,6 +12,7 @@ export const betaEditorPage = {
   draftDocumentTag: '//div[contains(@class, "document-status-chip draft")]',
   trashedDocumentsBtn: '//div[@data-node-key="trash"]',
   emptyTrashNowAction: '//button[@class="snackbar-btn" and text()="Empty Trash now"]',
+  comfirmTrashEmpty: '//button[@data-testid="buttonBase"]/span[text()="Continue"]',
 }
 
 export const documentsPage = {
